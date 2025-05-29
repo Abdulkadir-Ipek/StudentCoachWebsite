@@ -79,12 +79,7 @@ The application will start running at http://localhost:8000
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more information.
-
 ## Contact
 
-Project Owner - [@github_username](https://github.com/github_username)
+Project Owner - [@Abdulkadir İpek](https://github.com/Abdulkadir-Ipek) - [@Muratcan Yazılı](https://github.com/Zpeairr)
 
-Project Link: [https://github.com/github_username/student_coaching](https://github.com/github_username/student_coaching)
