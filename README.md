@@ -1,90 +1,90 @@
-# Öğrenci Koçluk Sistemi
+# Student Coaching System
 
-Bu proje, öğrenciler ve koçlar arasındaki iletişimi ve koçluk sürecini yönetmek için geliştirilmiş bir web uygulamasıdır.
+This project is a web application developed to manage communication and coaching processes between students and coaches.
 
-## Özellikler
+## Features
 
-- Öğrenci ve koç kayıt sistemi
-- Oturum yönetimi ve güvenli kimlik doğrulama
-- E-posta doğrulama sistemi
-- Koçluk seansları planlama ve takibi
-- İlerleme raporları ve değerlendirmeler
-- Mesajlaşma sistemi
+- Student and coach registration system
+- Session management and secure authentication
+- Email verification system
+- Coaching session planning and tracking
+- Progress reports and evaluations
+- Messaging system
 
-## Gereksinimler
+## Requirements
 
 - PHP >= 8.1
 - Composer
 - Node.js & NPM
 - MySQL/PostgreSQL/SQLite
-- Web sunucusu (Apache/Nginx)
+- Web server (Apache/Nginx)
 
-## Kurulum
+## Installation
 
-1. Projeyi klonlayın:
+1. Clone the project:
 ```bash
-git clone https://github.com/kullaniciadi/ogrenci_kocluk.git
-cd ogrenci_kocluk
+git clone https://github.com/username/student_coaching.git
+cd student_coaching
 ```
 
-2. Composer bağımlılıklarını yükleyin:
+2. Install Composer dependencies:
 ```bash
 composer install
 ```
 
-3. Ortam değişkenlerini ayarlayın:
+3. Set up environment variables:
 ```bash
 cp .env.example .env
 php artisan key:generate
 ```
 
-4. `.env` dosyasında veritabanı ayarlarını yapılandırın:
+4. Configure database settings in `.env`:
 ```
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=ogrenci_kocluk
+DB_DATABASE=student_coaching
 DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-5. Veritabanı migration'larını çalıştırın:
+5. Run database migrations:
 ```bash
 php artisan migrate
 ```
 
-6. Frontend bağımlılıklarını yükleyin:
+6. Install frontend dependencies:
 ```bash
 npm install
 npm run dev
 ```
 
-7. Uygulamayı başlatın:
+7. Start the application:
 ```bash
 php artisan serve
 ```
 
-Uygulama http://localhost:8000 adresinde çalışmaya başlayacaktır.
+The application will start running at http://localhost:8000
 
-## Geliştirme
+## Development
 
-- `php artisan serve` komutu ile geliştirme sunucusunu başlatın
-- `npm run dev` komutu ile Vite geliştirme sunucusunu başlatın
+- Start the development server with `php artisan serve`
+- Start the Vite development server with `npm run dev`
 
-## Katkıda Bulunma
+## Contributing
 
-1. Bu depoyu fork edin
-2. Yeni bir branch oluşturun (`git checkout -b feature/amazing-feature`)
-3. Değişikliklerinizi commit edin (`git commit -m 'Add some amazing feature'`)
-4. Branch'inizi push edin (`git push origin feature/amazing-feature`)
-5. Pull Request oluşturun
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-## Lisans
+## License
 
-Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakın.
+This project is licensed under the MIT License. See the `LICENSE` file for more information.
 
-## İletişim
+## Contact
 
-Proje Sahibi - [@github_username](https://github.com/github_username)
+Project Owner - [@github_username](https://github.com/github_username)
 
-Proje Linki: [https://github.com/github_username/ogrenci_kocluk](https://github.com/github_username/ogrenci_kocluk)
+Project Link: [https://github.com/github_username/student_coaching](https://github.com/github_username/student_coaching)
